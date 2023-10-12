@@ -1,20 +1,50 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { ref, onMounted } from "vue";
+import gameStat from './assets/response.json'
+import KartaGry from "./components/KartaGry.vue";
+let plansza = ref([]);
+let gracze = ref([])
+let runda = 0
+let winner = ref()
+
+
+// Funkcja wyświetlająca kolejną tablicę Plansza
+const statrGame = () => {
+  if (runda < gameStat.PrzebiegGry.length) {
+    //plansza update
+    plansza.value = gameStat.PrzebiegGry[runda].Plansza
+    //karty gracza update
+    let gracz = gracze.value.find((gracz) => gracz.NazwaGracza === gameStat.PrzebiegGry[runda].NazwaGracza)
+    gracz.TwojeKarty = gameStat.PrzebiegGry[runda].TwojeKarty
+    gracz.ZagraneKatry = gameStat.PrzebiegGry[runda].ZagraneKatry
+    runda += 1
+  } else {
+    runda = 0
+    winner.value = gameStat.WynikGry.WygranyGracz
+    clearInterval(interval);
+  }
+}
+
+onMounted(() => {
+  gracze.value = gameStat.NowaGra.Gracze
+})
+
+
+
+
+// Wywołanie funkcji co x sekund
+const interval = setInterval(statrGame, 1500);
+
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <p>{{ plansza }}</p>
+  <KartaGry :color="'czerwony'" :option="'+'" />
+  <br>
+  <p>{{ gracze }}</p>
+  <br>
+  <p v-if="winner">{{ winner }}</p>
 </template>
 
 <style scoped>
