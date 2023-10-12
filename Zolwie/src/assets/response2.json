@@ -1,0 +1,3090 @@
+{
+  "NowaGra": {
+    "GraID": "KT",
+    "Gracze": [
+      {
+        "NumerGracza": 1,
+        "NazwaGracza": "Allinclusive",
+        "KolorGracza": "BLUE"
+      },
+      {
+        "NumerGracza": 2,
+        "NazwaGracza": "Duze chlopaki",
+        "KolorGracza": "YELLOW"
+      }
+    ]
+  },
+  "PrzebiegGry": [
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "B1", "G1B", "Y1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": []
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "R1", "A1", "G2", "G1"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "G1B", "Y1", "R1B"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE", "RED"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["R1", "A1", "G2", "G1", "B1"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "G1B", "Y1", "B1"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE", "RED"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "G2", "G1", "B1", "B1B"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "G1B", "B1", "B1"],
+      "Plansza": [
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "G1", "B1", "B1B", "R2"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "G1B", "B1", "G1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "G1", "B1B", "R2", "A1"],
+      "Plansza": [
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "G1B", "B1", "G1", "L1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "B1B", "R2", "A1", "G1"],
+      "Plansza": [
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L2", "B1", "G1", "L1", "Y1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "B1B", "R2", "A1", "A1B"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["B1", "G1", "L1", "Y1", "Y1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE", "YELLOW"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["A1", "B1B", "R2", "A1", "A1B"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE"]
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["B1", "G1", "L1", "Y1", "P1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW", "GREEN", "PURPLE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["B1B", "R2", "A1", "A1B", "P1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW", "GREEN", "PURPLE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["G1", "L1", "Y1", "P1", "Y2"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["B1B", "R2", "A1B", "P1", "B2"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["PURPLE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["G1", "L1", "Y1", "Y2", "L1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["PURPLE", "BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["B1B", "R2", "A1B", "P1", "A1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["PURPLE", "BLUE", "RED", "YELLOW", "GREEN"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L1", "Y1", "Y2", "L1", "B1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["PURPLE", "BLUE", "RED", "YELLOW"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["B1B", "R2", "A1B", "P1", "G1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["PURPLE", "BLUE", "RED"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L1", "Y1", "L1", "B1", "R1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["BLUE", "RED"]
+        },
+        {
+          "Zolwie": ["PURPLE"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["R2", "A1B", "P1", "G1", "A1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["PURPLE", "BLUE", "RED"]
+        },
+        {
+          "Zolwie": ["GREEN"]
+        },
+        {
+          "Zolwie": ["YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L1", "Y1", "L1", "R1", "P1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE", "BLUE", "RED"]
+        },
+        {
+          "Zolwie": ["YELLOW"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "P1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["R2", "A1B", "G1", "A1", "L2"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["GREEN", "PURPLE", "BLUE"]
+        },
+        {
+          "Zolwie": ["YELLOW", "RED"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L1", "Y1", "L1", "P1", "Y1"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["YELLOW", "RED", "GREEN", "PURPLE", "BLUE"]
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Duze chlopaki",
+      "TwojKolor": "YELLOW",
+      "TwojeKarty": ["R2", "A1B", "A1", "L2", "P1B"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["YELLOW", "RED", "GREEN", "PURPLE", "BLUE"]
+        },
+        {
+          "Zolwie": []
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        }
+      ]
+    },
+    {
+      "NazwaGracza": "Allinclusive",
+      "TwojKolor": "BLUE",
+      "TwojeKarty": ["L1", "L1", "P1", "Y1", "R1B"],
+      "Plansza": [
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": []
+        },
+        {
+          "Zolwie": ["YELLOW", "RED", "GREEN", "PURPLE", "BLUE"]
+        }
+      ],
+      "ZagraneKatry": [
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1B"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "L2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B2"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y2"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "B1B"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "B1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "P1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "R1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "G1"
+        },
+        {
+          "NazwaGracza": "Allinclusive",
+          "ZagranaKarta": "Y1"
+        },
+        {
+          "NazwaGracza": "Duze chlopaki",
+          "ZagranaKarta": "A1"
+        }
+      ]
+    }
+  ],
+  "WynikGry": {
+    "WygranyGracz": "Allinclusive"
+  }
+}

@@ -13,7 +13,8 @@
             }
         ]
     },
-    "PrzebiegGry": [{
+    "PrzebiegGry": [
+        {
             "NazwaGracza": "Lewy",
             "TwojKolor": "YELLOW",
             "TwojeKarty": [
