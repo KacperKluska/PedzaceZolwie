@@ -1,8 +1,8 @@
 <script setup>
 import Plansza from './components/Plansza.vue'
 import { ref, onMounted } from 'vue'
-import gameStat from './assets/response.json'
-import KartaGry from './components/KartaGry.vue'
+import gameStat from './assets/response2.json'
+// import KartaGry from './components/KartaGry.vue'
 let plansza = ref([])
 let gracze = ref([])
 let runda = 0
@@ -36,13 +36,16 @@ const interval = setInterval(statrGame, 1500)
 </script>
 
 <template>
-  <p>{{ plansza }}</p>
-  <KartaGry :color="'czerwony'" :option="'+'" />
-  <br />
-  <p>{{ gracze }}</p>
-  <br />
-  <p v-if="winner">{{ winner }}</p>
-  <Plansza />
+  <div>
+    <Plansza :plansza="plansza" />
+    <br />
+    <p>{{ plansza }}</p>
+    <!-- <KartaGry :color="'czerwony'" :option="'+'" /> -->
+    <br />
+    <p>{{ gracze }}</p>
+    <br />
+    <p v-if="winner">{{ winner }}</p>
+  </div>
 </template>
 
 <style scoped></style>
