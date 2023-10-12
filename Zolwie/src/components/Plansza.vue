@@ -26,6 +26,14 @@ defineProps({
 </template>
 
 <style lang="scss" scoped>
+@keyframes exampleB {
+  0% {
+    transform: perspective(20px) rotateX(30deg);
+  }
+  100% {
+    transform: perspective(200px) rotateX(30deg);
+  }
+}
 .plansza {
   display: flex;
   width: 100%;
@@ -36,6 +44,11 @@ defineProps({
   &__container {
     position: relative;
     width: fit-content;
+  }
+
+  img {
+    transform: perspective(200px) rotateX(30deg);
+    animation: exampleB 2000ms;
   }
 }
 </style>

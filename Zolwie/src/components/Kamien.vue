@@ -14,11 +14,11 @@ defineProps({
 })
 
 const colors = {
-  YELLOW: '#ffff00',
-  RED: '#ff0000',
-  GREEN: '#00ff00',
-  BLUE: '#0000ff',
-  PURPLE: '#800080'
+  YELLOW: 'yellow',
+  RED: 'red',
+  GREEN: 'green',
+  BLUE: 'blue',
+  PURPLE: 'purple'
 }
 </script>
 
@@ -41,43 +41,43 @@ const colors = {
 
   &-0 {
     top: 140px;
-    left: 25px;
+    left: -15px;
   }
   &-1 {
-    top: 70px;
+    top: 60px;
     left: 60px;
   }
   &-2 {
-    top: 50px;
-    left: 120px;
+    top: 40px;
+    left: 125px;
   }
   &-3 {
-    top: 60px;
+    top: 50px;
     left: 180px;
   }
   &-4 {
     top: 120px;
-    left: 225px;
+    left: 220px;
   }
   &-5 {
     top: 140px;
-    left: 280px;
+    left: 285px;
   }
   &-6 {
-    top: 100px;
-    left: 330px;
+    top: 90px;
+    left: 335px;
   }
   &-7 {
-    top: 40px;
+    top: 30px;
     left: 380px;
   }
   &-8 {
-    top: 70px;
+    top: 50px;
     left: 435px;
   }
   &-9 {
-    top: 110px;
-    left: 485px;
+    top: 100px;
+    left: 510px;
   }
 }
 </style>
