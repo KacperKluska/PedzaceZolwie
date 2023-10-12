@@ -28,6 +28,30 @@
                 },
                 {
                     "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
                 }
             ],
             "ZagraneKatry": []
@@ -49,9 +73,36 @@
                 },
                 {
                     "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
                 }
             ],
-            "ZagraneKatry": []
+            "ZagraneKatry": [{
+                "NazwaGracza": "Lewy",
+                "ZagranaKarta": "G1"
+            }]
         },
         {
             "NazwaGracza": "Lewy",
@@ -71,9 +122,41 @@
                 },
                 {
                     "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
                 }
             ],
-            "ZagraneKatry": []
+            "ZagraneKatry": [{
+                    "NazwaGracza": "Lewy",
+                    "ZagranaKarta": "G1"
+                },
+                {
+                    "NazwaGracza": "Prawy",
+                    "ZagranaKarta": "Y1"
+                }
+            ]
         },
         {
             "NazwaGracza": "Prawy",
@@ -94,9 +177,45 @@
                 },
                 {
                     "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
                 }
             ],
-            "ZagraneKatry": []
+            "ZagraneKatry": [{
+                    "NazwaGracza": "Lewy",
+                    "ZagranaKarta": "G1"
+                },
+                {
+                    "NazwaGracza": "Prawy",
+                    "ZagranaKarta": "Y1"
+                },
+                {
+                    "NazwaGracza": "Lewy",
+                    "ZagranaKarta": "B1"
+                }
+            ]
         },
         {
             "NazwaGracza": "Lewy",
@@ -118,9 +237,49 @@
                     "Zolwie": [
                         "GREEN"
                     ]
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
+                },
+                {
+                    "Zolwie": []
                 }
             ],
-            "ZagraneKatry": []
+            "ZagraneKatry": [{
+                    "NazwaGracza": "Lewy",
+                    "ZagranaKarta": "G1"
+                },
+                {
+                    "NazwaGracza": "Prawy",
+                    "ZagranaKarta": "Y1"
+                },
+                {
+                    "NazwaGracza": "Lewy",
+                    "ZagranaKarta": "B1"
+                },
+                {
+                    "NazwaGracza": "Prawy",
+                    "ZagranaKarta": "R1"
+                }
+            ]
         }
     ],
     "WynikGry": {
