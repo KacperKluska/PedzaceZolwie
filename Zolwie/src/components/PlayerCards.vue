@@ -1,8 +1,8 @@
 <template>
   <div class="players-box">
-    <div class="player" v-for="player in players" :key="player.id">
-      <h2 style="color: aliceblue">Gracz {{ player.id }}</h2>
-      <CardDisplay :cards="player.cards" :colorCard="colorMap" />
+    <div class="player" v-for="player in gracze" :key="player.TwojKolor">
+      <h2 style="color: aliceblue">Gracz {{ player.NazwaGracza }}</h2>
+      <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
     </div>
   </div>
 </template>
@@ -11,6 +11,9 @@
 import CardDisplay from './CardDisplay.vue'
 
 export default {
+  props: {
+    gracze: Array
+  },
   components: {
     CardDisplay
   },
