@@ -1,7 +1,7 @@
 <script setup>
 import Plansza from './components/Plansza.vue'
 import PlayerCards from './components/PlayerCards.vue'
-import CardDisplay from './components/CardDisplay.vue'
+import CardOne from './components/CardOne.vue'
 import { ref, onMounted } from 'vue'
 import gameStat from './assets/response2.json'
 let plansza = ref([])
@@ -13,6 +13,7 @@ let kartaStos = ref()
 // Funkcja wyświetlająca kolejną tablicę Plansza
 const statrGame = () => {
   if (runda < gameStat.PrzebiegGry.length) {
+    kartaStos.value = undefined
     //plansza update
     plansza.value = gameStat.PrzebiegGry[runda].Plansza
     //karty gracza update
@@ -22,10 +23,9 @@ const statrGame = () => {
     gracz.TwojeKarty = gameStat.PrzebiegGry[runda].TwojeKarty
     gracz.ZagraneKatry = gameStat.PrzebiegGry[runda].ZagraneKatry
 
-    kartaStos.value = gracz.ZagraneKatry.slice(-1).ZagranaKarta
-
-    console.log(gameStat.PrzebiegGry[runda].ZagraneKatry)
-    console.log(kartaStos.value)
+    // kartaStos.value = gameStat.PrzebiegGry[runda].ZagraneKatry.slice(-1)[0] ? gameStat.PrzebiegGry[runda].ZagraneKatry.slice(-1)[0].ZagranaKarta : ""
+    kartaStos.value = gameStat.PrzebiegGry[runda].ZagraneKatry
+    console.log('----', kartaStos.value)
     runda += 1
   } else {
     runda = 0
@@ -54,7 +54,6 @@ const findWinnerColor = (name) => {
   const znalezionyZwyciezca = gameStat.NowaGra.Gracze.find(
     (druzyna) => druzyna.NazwaGracza === name
   )
-  console.log('🚀 ~ file: App.vue:38 ~ findWinnerColor ~ znalezionyZwyciezca:', znalezionyZwyciezca)
   return znalezionyZwyciezca.KolorGracza || undefined
 }
 
@@ -63,42 +62,86 @@ const interval = setInterval(statrGame, 100)
 </script>
 
 <template>
-  <div>
-    <div class="wygrana" v-if="winner">
-      The Winer is...<br />
-      <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
-      <div class="wygrana__images">
-        <img
-          class="wygrana__zolw"
-          :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
-          alt="zwycięzki żółw"
-        />
-        <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
-      </div>
+  <div class="wygrana" v-if="winner">
+    The Winer is...<br />
+    <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
+    <div class="wygrana__images">
+      <img
+        class="wygrana__zolw"
+        :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
+        alt="zwycięzki żółw"
+      />
+      <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
     </div>
-    <div class="gra" :class="{ 'gra--koniec': winner }">
-      <Plansza :plansza="plansza" />
-      <PlayerCards v-if="gracze.length" :gracze="gracze" />
-      <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+  </div>
+  <div class="gra" :class="{ 'gra--koniec': winner }">
+    <Plansza :plansza="plansza" />
+    <div v-for="(card, index) in kartaStos" :key="index">
+      <CardOne
+        v-if="kartaStos"
+        class="karta-stos"
+        :card="card.ZagranaKarta"
+        :colorCard="colorMap"
+      />
     </div>
+    <PlayerCards v-if="gracze.length" :gracze="gracze" />
+    <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@keyframes exampleA {
+  0% {
+    scale: 2;
+    opacity: 0.1;
+  }
+
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: black !important;
+}
+
+#app {
+  position: relative;
+  margin-top: 0;
+}
+
+.karta-stos {
+  /* border: 5px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: calc(260px / 3);
+  height: calc(426px / 3); */
+  width: fit-content;
+  position: absolute;
+  left: 47%;
+  transform: scale(1.3);
+  top: 401px;
+  animation: exampleA 500ms;
+}
+
 @keyframes winner {
   0% {
     left: -1000px;
   }
+
   100% {
     left: 50%;
   }
 }
+
 @keyframes spinningTurtle {
   0% {
     left: -1000px;
     top: 500px;
     transform: translate(-50%, 0%) scale(0.1) rotateZ(0) rotateY(180deg);
   }
+
   100% {
     left: 50%;
     top: 320px;
@@ -107,15 +150,18 @@ const interval = setInterval(statrGame, 100)
 }
 
 .gra {
-  margin-top: 0;
-  transition: margin-top 1s;
+  position: relative;
+  top: 0;
+  height: 100vh;
+  transition: top 1s;
 
   &--koniec {
-    margin-top: 500px;
+    top: 500px;
   }
 }
 
 .wygrana {
+  z-index: 10;
   position: absolute;
   font-size: 40px;
   line-height: 40px;
