@@ -1,17 +1,25 @@
 <template>
   <div class="card-display">
-    <p>{{ cards }}</p>
-    <div v-for="(card, index) in cards" :key="index" class="card" :style="{ borderColor: getBorderColor(card) }">
-      <img class="img" v-if="isSpecialCard(card)" :src="specialCardImage" alt="Special Card" />
+    <div
+      v-for="(card, index) in cards"
+      :key="index"
+      class="card"
+      :style="{ borderColor: getBorderColor(card) }"
+    >
+      <img class="img" v-if="card" :src="isSpecialCard(card)" alt="Special Card" />
       <div class="box-card-mark">
         <span class="card-mark">{{ transformCard(card) }}</span>
       </div>
     </div>
   </div>
 </template>
-
 <script>
-import dupeczkaImage from '@/assets/dupeczkaRed.png'
+import R from '../assets/karty/R.png'
+import B from '../assets/karty/B.png'
+import Y from '../assets/karty/Y.png'
+import P from '../assets/karty/P.png'
+import G from '../assets/karty/G.png'
+import Rainbow from '../assets/karty/Rainbow.png'
 
 export default {
   props: {
@@ -20,7 +28,12 @@ export default {
   },
   data() {
     return {
-      specialCardImage: dupeczkaImage
+      Red: R,
+      Blue: B,
+      Yellow: Y,
+      Purple: P,
+      Green: G,
+      Rainbow: Rainbow
     }
   },
   methods: {
@@ -34,6 +47,28 @@ export default {
       }
       const firstLetter = card[0]
       return colorDescriptions[firstLetter] || 'red'
+    },
+
+    isSpecialCard(card) {
+      if (card === 'R1') return this.Red
+      if (card === 'R2') return this.Red
+      if (card === 'R1B') return this.Red
+      if (card === 'B1') return this.Blue
+      if (card === 'B2') return this.Blue
+      if (card === 'B1B') return this.Blue
+      if (card === 'G1') return this.Green
+      if (card === 'G2') return this.Green
+      if (card === 'G1B') return this.Green
+      if (card === 'Y1') return this.Yellow
+      if (card === 'Y2') return this.Yellow
+      if (card === 'Y1B') return this.Yellow
+      if (card === 'P1') return this.Purple
+      if (card === 'P2') return this.Purple
+      if (card === 'P1B') return this.Purple
+      if (card === 'L1') return this.Rainbow
+      if (card === 'L2') return this.Rainbow
+      if (card === 'A1') return this.Rainbow
+      if (card === 'A1B') return this.Rainbow
     },
 
     transformCard(card) {
@@ -56,14 +91,17 @@ export default {
         L1: 'Up',
         L2: 'Up x2',
         A1: '+',
-        A2: '++'
+        A1B: '-'
       }
       const regexPattern = Object.keys(cardDescriptions).join('|')
       const regex = new RegExp(`\\b(${regexPattern})\\b`, 'g')
       return card.replace(regex, (match) => cardDescriptions[match])
-    },
-    isSpecialCard(card) {
-      return card === 'R1'
+    }
+  },
+
+  computed: {
+    specialCardImage() {
+      return this.isSpecialCard(this.card)
     }
   }
 }
