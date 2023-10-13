@@ -66,7 +66,7 @@ const interval = setInterval(statrGame, 100)
   <div>
     <div class="wygrana" v-if="winner">
       The Winer is...<br />
-      {{ winner }}
+      <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
       <div class="wygrana__images">
         <img
           class="wygrana__zolw"
@@ -101,7 +101,7 @@ const interval = setInterval(statrGame, 100)
   }
   100% {
     left: 50%;
-    top: 300px;
+    top: 320px;
     transform: translate(-50%, 0%) scale(2) rotateZ(720deg) rotateY(180deg);
   }
 }
@@ -117,21 +117,32 @@ const interval = setInterval(statrGame, 100)
 
 .wygrana {
   position: absolute;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 40px;
   width: 100%;
   color: yellow;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
   left: 50%;
   top: 0;
   transform: translate(-50%, 0%);
   animation: winner 1000ms;
 
+  &__zwyciezca {
+    position: relative;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, 0%);
+    animation: winner 3000ms;
+  }
+
   &__images {
     position: absolute;
     left: 50%;
-    top: 300px;
+    top: 320px;
     transform: translate(-50%, 0%) rotateY(180deg) scale(2);
     animation: spinningTurtle 3000ms;
   }
