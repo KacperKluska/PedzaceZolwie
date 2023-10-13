@@ -62,30 +62,35 @@ const interval = setInterval(statrGame, 100)
 </script>
 
 <template>
-  <div class="wygrana" v-if="winner">
-    The Winer is...<br />
-    <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
-    <div class="wygrana__images">
-      <img
-        class="wygrana__zolw"
-        :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
-        alt="zwycięzki żółw"
-      />
-      <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
+  <div>
+    <div class="btn">
+      <button>Start</button>
     </div>
-  </div>
-  <div class="gra" :class="{ 'gra--koniec': winner }">
-    <Plansza :plansza="plansza" />
-    <div v-for="(card, index) in kartaStos" :key="index">
-      <CardOne
-        v-if="kartaStos"
-        class="karta-stos"
-        :card="card.ZagranaKarta"
-        :colorCard="colorMap"
-      />
+    <div class="wygrana" v-if="winner">
+      The Winer is...<br />
+      <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
+      <div class="wygrana__images">
+        <img
+          class="wygrana__zolw"
+          :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
+          alt="zwycięzki żółw"
+        />
+        <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
+      </div>
     </div>
-    <PlayerCards v-if="gracze.length" :gracze="gracze" />
-    <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+    <div class="gra" :class="{ 'gra--koniec': winner }">
+      <Plansza :plansza="plansza" />
+      <div v-for="(card, index) in kartaStos" :key="index">
+        <CardOne
+          v-if="kartaStos"
+          class="karta-stos"
+          :card="card.ZagranaKarta"
+          :colorCard="colorMap"
+        />
+      </div>
+      <PlayerCards v-if="gracze.length" :gracze="gracze" />
+      <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+    </div>
   </div>
 </template>
 
@@ -205,5 +210,42 @@ body {
     width: 203px;
     height: 131px;
   }
+}
+
+button {
+  background: linear-gradient(90deg, #dce31aad, #06eb1da8);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-shadow: 2px 2px 2px rgba(192, 145, 36, 0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px 40px 15px 40px;
+  font-weight: 700;
+}
+
+/* Styl przycisku po najechaniu myszą */
+button:hover {
+  background: linear-gradient(90deg, #d3770e, #ad931095);
+  color: #00ff00;
+}
+
+/* Styl przycisku po kliknięciu */
+button:active {
+  background: linear-gradient(90deg, #000000, #1a1a1a);
+  color: #ffffff;
+  border: 2px solid #1a1a1a;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
 }
 </style>
