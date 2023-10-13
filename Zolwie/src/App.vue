@@ -62,30 +62,37 @@ const interval = setInterval(statrGame, 100)
 </script>
 
 <template>
-  <div class="wygrana" v-if="winner">
-    The Winer is...<br />
-    <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
-    <div class="wygrana__images">
-      <img
-        class="wygrana__zolw"
-        :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
-        alt="zwycięzki żółw"
-      />
-      <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
-    </div>
+  <div class="error" v-if="winner === ''">
+    ERROR 500: Po stronie serwera wystąpił Robaszek
+    <br />
+    <img src="./assets/robaszek.png" alt="robaszek" />
   </div>
-  <div class="gra" :class="{ 'gra--koniec': winner }">
-    <Plansza :plansza="plansza" />
-    <div v-for="(card, index) in kartaStos" :key="index">
-      <CardOne
-        v-if="kartaStos"
-        class="karta-stos"
-        :card="card.ZagranaKarta"
-        :colorCard="colorMap"
-      />
+  <div v-else>
+    <div class="wygrana" v-if="winner">
+      The Winer is...<br />
+      <h1 class="wygrana__zwyciezca">{{ winner }}</h1>
+      <div class="wygrana__images">
+        <img
+          class="wygrana__zolw"
+          :src="`src/assets/zolwie/${findWinnerColor(winner).toLowerCase()}.png`"
+          alt="zwycięzki żółw"
+        />
+        <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
+      </div>
     </div>
-    <PlayerCards v-if="gracze.length" :gracze="gracze" />
-    <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+    <div class="gra" :class="{ 'gra--koniec': winner }">
+      <Plansza :plansza="plansza" />
+      <div v-for="(card, index) in kartaStos" :key="index">
+        <CardOne
+          v-if="kartaStos"
+          class="karta-stos"
+          :card="card.ZagranaKarta"
+          :colorCard="colorMap"
+        />
+      </div>
+      <PlayerCards v-if="gracze.length" :gracze="gracze" />
+      <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+    </div>
   </div>
 </template>
 
@@ -146,6 +153,32 @@ body {
     left: 50%;
     top: 320px;
     transform: translate(-50%, 0%) scale(2) rotateZ(720deg) rotateY(180deg);
+  }
+}
+
+@keyframes robaszek {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.error {
+  width: 100%;
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 700;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    animation: robaszek 2s ease-in;
+    animation-fill-mode: forwards;
   }
 }
 
