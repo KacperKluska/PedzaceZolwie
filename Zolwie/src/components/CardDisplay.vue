@@ -1,11 +1,6 @@
 <template>
   <div class="card-display">
-    <div
-      v-for="card in cards"
-      :key="card"
-      class="card"
-      :style="{ borderColor: getBorderColor(card) }"
-    >
+    <div v-for="card in cards" :key="card" class="card" :style="{ borderColor: getBorderColor(card) }">
       <img class="img" v-if="isSpecialCard(card)" :src="specialCardImage" alt="Special Card" />
       <div class="box-card-mark">
         <span class="card-mark">{{ transformCard(card) }}</span>

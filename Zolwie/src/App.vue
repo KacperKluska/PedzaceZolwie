@@ -1,8 +1,8 @@
 <script setup>
 import Plansza from './components/Plansza.vue'
+import PlayerCards from './components/PlayerCards.vue';
 import { ref, onMounted } from 'vue'
 import gameStat from './assets/response2.json'
-// import KartaGry from './components/KartaGry.vue'
 let plansza = ref([])
 let gracze = ref([])
 let runda = 0
@@ -29,6 +29,11 @@ const statrGame = () => {
 
 onMounted(() => {
   gracze.value = gameStat.NowaGra.Gracze
+  for (let i = 0; i < gameStat.NowaGra.Gracze.length; i++) {
+
+    gracze[i].TwojeKarty = []
+  }
+
 })
 
 // Wywołanie funkcji co x sekund
@@ -40,8 +45,8 @@ const interval = setInterval(statrGame, 1500)
     <Plansza :plansza="plansza" />
     <br />
     <p>{{ plansza }}</p>
-    <!-- <KartaGry :color="'czerwony'" :option="'+'" /> -->
     <br />
+    <PlayerCards v-if="gracze.length" :gracze="gracze" />
     <p>{{ gracze }}</p>
     <br />
     <p v-if="winner">{{ winner }}</p>
