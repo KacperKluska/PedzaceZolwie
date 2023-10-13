@@ -1,5 +1,7 @@
 <template>
-  <div class="players-box">
+  <div class="players-box ">
+
+
     <div class="player" v-for="player in gracze" :key="player.TwojKolor">
       <h2 style="color: aliceblue">{{ player.NazwaGracza }}</h2>
       <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
@@ -57,6 +59,8 @@ export default {
 
 <style>
 .players-box {
+  bottom: 0;
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,7 +68,6 @@ export default {
   width: 100%;
   margin-top: 15px;
   padding: 10px;
-  transform: scale(0.9);
 }
 
 .player {

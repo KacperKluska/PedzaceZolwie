@@ -1,10 +1,16 @@
 <template>
   <div class="card-display">
-    <div v-for="(card, index) in cards" :key="index" class="card" :style="{ borderColor: getBorderColor(card) }">
+
+    <div v-for="(card, index) in cards" :key="index" class="card">
       <img class="img" v-if="card" :src="isSpecialCard(card)" alt="Special Card" />
       <div class="box-card-mark">
         <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
         <img class="card-mark" :src="transformCard(card)" alt="">
+        <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
+      </div>
+      <div class="box-card-mark-left">
+        <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
+        <img class="card-mark-left" :src="transformCard(card)" alt="">
         <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
       </div>
       <div class="box-card-mark-center">
@@ -128,7 +134,8 @@ export default {
   display: flex;
   width: calc(260px / 3);
   height: calc(426px / 3);
-  border: 2px solid;
+  border: 2px solid white;
+  border-radius: 4px;
   overflow: hidden;
 }
 
@@ -138,6 +145,15 @@ export default {
 }
 
 .box-card-mark {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  z-index: 1;
+}
+
+.box-card-mark-left {
   /* position: absolute; */
   display: flex;
   justify-content: center;
@@ -166,10 +182,18 @@ export default {
   position: absolute;
 }
 
+.card-mark-left {
+  width: 20px;
+  top: 2px;
+  left: 2px;
+  color: white;
+  position: absolute;
+}
+
 .card-mark-center {
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 47%;
   width: 45px;
   color: white;
   position: absolute;
