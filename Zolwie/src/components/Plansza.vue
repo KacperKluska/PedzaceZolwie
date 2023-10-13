@@ -12,7 +12,6 @@ defineProps({
 
 <template>
   <div class="plansza">
-    <h1>Pędzące żółwie</h1>
     <div class="plansza__container">
       <img src="../assets/plansza.jpg" alt="plansza gry" />
       <Kamien v-for="(kamien, index) in plansza" :key="index" :zolwie="kamien.Zolwie" :kamien-index="index" />
