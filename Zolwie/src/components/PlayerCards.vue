@@ -1,7 +1,17 @@
 <template>
   <div class="players-box">
     <div class="player" v-for="player in gracze" :key="player.TwojKolor">
-      <h2 style="color: aliceblue">Gracz {{ player.NazwaGracza }}</h2>
+      <h2 style="color: aliceblue">{{ player.NazwaGracza }}</h2>
+      <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
+    </div>
+    <div class="player" v-for="player in gracze" :key="player.TwojKolor">
+      <h2 style="color: aliceblue">{{ player.NazwaGracza }}</h2>
+      <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
+    </div>
+    <div class="player" v-for="player in gracze" :key="player.TwojKolor">
+      <h2 :class="player.KolorGracza" :style="{ color: player.KolorGracza }">
+        {{ player.NazwaGracza }}
+      </h2>
       <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
     </div>
   </div>
@@ -17,18 +27,21 @@ export default {
   components: {
     CardDisplay
   },
+  methods: {
+    getBorderColor(card) {
+      const colorDescriptions = {
+        Y: 'yellow',
+        B: 'blue',
+        G: 'green',
+        P: 'purple',
+        L: 'white'
+      }
+      const firstLetter = card[0]
+      return colorDescriptions[firstLetter] || 'red'
+    }
+  },
   data() {
     return {
-      players: [
-        {
-          id: 1,
-          cards: ['G1B', 'R1B', 'A1', 'G1', 'B2']
-        },
-        {
-          id: 2,
-          cards: ['R1', 'R1', 'Y1B', 'P1B', 'B1']
-        }
-      ],
       colorMap: {
         R: 'red',
         G: 'green',
@@ -44,13 +57,25 @@ export default {
 
 <style>
 .players-box {
-  width: 100%;
-  padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  transform: scale(0.9);
 }
 
 .player {
   width: fit-content;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.PURPLE {
+  color: violet !important;
 }
 </style>
