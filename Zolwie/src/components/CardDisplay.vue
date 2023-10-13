@@ -1,15 +1,20 @@
 <template>
   <div class="card-display">
-    <div v-for="(card, index) in cards" :key="index" class="card" :style="{ borderColor: getBorderColor(card) }">
+    <div
+      v-for="(card, index) in cards"
+      :key="index"
+      class="card"
+      :style="{ borderColor: getBorderColor(card) }"
+    >
       <img class="img" v-if="card" :src="isSpecialCard(card)" alt="Special Card" />
       <div class="box-card-mark">
         <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
-        <img class="card-mark" :src="transformCard(card)" alt="">
+        <img class="card-mark" :src="transformCard(card)" alt="" />
         <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
       </div>
       <div class="box-card-mark-center">
         <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
-        <img class="card-mark-center" :src="transformCard(card)" alt="">
+        <img class="card-mark-center" :src="transformCard(card)" alt="" />
         <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
       </div>
     </div>
@@ -41,8 +46,11 @@ export default {
       Purple: P,
       Green: G,
       Rainbow: Rainbow,
-      plus, plus2, minus, Up, Up2x
-      // specialCardImage: dupeczkaImage
+      plus,
+      plus2,
+      minus,
+      Up,
+      Up2x
     }
   },
   methods: {

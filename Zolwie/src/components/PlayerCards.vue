@@ -1,11 +1,15 @@
 <template>
   <div class="players-box">
     <div class="player" v-for="player in gracze" :key="player.TwojKolor">
-      <h2 style="color: aliceblue">{{ player.NazwaGracza }}</h2>
+      <h2 :class="player.KolorGracza" :style="{ color: player.KolorGracza }">
+        {{ player.NazwaGracza }}
+      </h2>
       <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
     </div>
     <div class="player" v-for="player in gracze" :key="player.TwojKolor">
-      <h2 style="color: aliceblue">{{ player.NazwaGracza }}</h2>
+      <h2 :class="player.KolorGracza" :style="{ color: player.KolorGracza }">
+        {{ player.NazwaGracza }}
+      </h2>
       <CardDisplay :cards="player.TwojeKarty" :colorCard="colorMap" />
     </div>
     <div class="player" v-for="player in gracze" :key="player.TwojKolor">
