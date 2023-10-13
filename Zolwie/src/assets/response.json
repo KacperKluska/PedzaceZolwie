@@ -13,15 +13,14 @@
             }
         ]
     },
-    "PrzebiegGry": [
-        {
+    "PrzebiegGry": [{
             "NazwaGracza": "Lewy",
             "TwojKolor": "YELLOW",
             "TwojeKarty": [
-                "P1B",
-                "A1",
-                "B1",
-                "P1",
+                "L1B",
+                "L1",
+                "L1",
+                "L1",
                 "G1"
             ],
             "Plansza": [{
@@ -65,7 +64,7 @@
                 "L2",
                 "Y1",
                 "Y1",
-                "A1"
+                "L1"
             ],
             "Plansza": [{
                     "Zolwie": [
@@ -109,11 +108,11 @@
             "NazwaGracza": "Lewy",
             "TwojKolor": "YELLOW",
             "TwojeKarty": [
-                "P1B",
-                "A1",
-                "P1",
+                "L1B",
+                "L1",
+                "L1",
                 "G1",
-                "A1B"
+                "L1B"
             ],
             "Plansza": [{
                     "Zolwie": [
@@ -166,8 +165,8 @@
                 "L1",
                 "L2",
                 "Y1",
-                "A1",
-                "B1"
+                "L1",
+                "L1"
             ],
             "Plansza": [{
                     "Zolwie": [
@@ -214,7 +213,7 @@
                 },
                 {
                     "NazwaGracza": "Lewy",
-                    "ZagranaKarta": "B1"
+                    "ZagranaKarta": "L1"
                 }
             ]
         },
@@ -222,11 +221,11 @@
             "NazwaGracza": "Lewy",
             "TwojKolor": "YELLOW",
             "TwojeKarty": [
-                "P1B",
-                "A1",
-                "P1",
-                "A1B",
-                "P1"
+                "L1B",
+                "L1",
+                "L1",
+                "L1B",
+                "L1"
             ],
             "Plansza": [{
                     "Zolwie": [
@@ -274,7 +273,7 @@
                 },
                 {
                     "NazwaGracza": "Lewy",
-                    "ZagranaKarta": "B1"
+                    "ZagranaKarta": "L1"
                 },
                 {
                     "NazwaGracza": "Prawy",

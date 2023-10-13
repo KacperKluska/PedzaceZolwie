@@ -1,12 +1,14 @@
 <script setup>
 import Plansza from './components/Plansza.vue'
 import PlayerCards from './components/PlayerCards.vue';
+import CardDisplay from './components/CardDisplay.vue';
 import { ref, onMounted } from 'vue'
 import gameStat from './assets/response2.json'
 let plansza = ref([])
 let gracze = ref([])
 let runda = 0
 let winner = ref()
+let kartaStos = ref()
 
 // Funkcja wyświetlająca kolejną tablicę Plansza
 const statrGame = () => {
@@ -19,12 +21,26 @@ const statrGame = () => {
     )
     gracz.TwojeKarty = gameStat.PrzebiegGry[runda].TwojeKarty
     gracz.ZagraneKatry = gameStat.PrzebiegGry[runda].ZagraneKatry
+
+    kartaStos.value = gracz.ZagraneKatry.slice(-1).ZagranaKarta
+
+    console.log(gameStat.PrzebiegGry[runda].ZagraneKatry)
+    console.log(kartaStos.value)
     runda += 1
   } else {
     runda = 0
     winner.value = gameStat.WynikGry.WygranyGracz
     clearInterval(interval)
   }
+}
+
+const colorMap = {
+  R: 'red',
+  G: 'green',
+  B: 'blue',
+  Y: 'yellow',
+  P: 'purple',
+  L: 'white'
 }
 
 onMounted(() => {
@@ -43,13 +59,8 @@ const interval = setInterval(statrGame, 1500)
 <template>
   <div>
     <Plansza :plansza="plansza" />
-    <br />
-    <p>{{ plansza }}</p>
-    <br />
     <PlayerCards v-if="gracze.length" :gracze="gracze" />
-    <p>{{ gracze }}</p>
-    <br />
-    <p v-if="winner">{{ winner }}</p>
+    <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
   </div>
 </template>
 
