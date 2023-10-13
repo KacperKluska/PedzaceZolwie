@@ -1,14 +1,16 @@
 <template>
   <div class="card-display">
-    <div
-      v-for="(card, index) in cards"
-      :key="index"
-      class="card"
-      :style="{ borderColor: getBorderColor(card) }"
-    >
+    <div v-for="(card, index) in cards" :key="index" class="card" :style="{ borderColor: getBorderColor(card) }">
       <img class="img" v-if="card" :src="isSpecialCard(card)" alt="Special Card" />
       <div class="box-card-mark">
-        <span class="card-mark">{{ transformCard(card) }}</span>
+        <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
+        <img class="card-mark" :src="transformCard(card)" alt="">
+        <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
+      </div>
+      <div class="box-card-mark-center">
+        <!-- <img class="card-mark" :src="transformCard(card)" alt=""> -->
+        <img class="card-mark-center" :src="transformCard(card)" alt="">
+        <!-- <span class="card-mark">{{ transformCard(card) }}</span> -->
       </div>
     </div>
   </div>
@@ -20,6 +22,11 @@ import Y from '../assets/karty/Y.png'
 import P from '../assets/karty/P.png'
 import G from '../assets/karty/G.png'
 import Rainbow from '../assets/karty/Rainbow.png'
+import plus from '@/assets/karty/plus.png'
+import plus2 from '@/assets/karty/plus2.png'
+import minus from '@/assets/karty/plus.png'
+import Up from '@/assets/karty/Up.png'
+import Up2x from '@/assets/karty/Up2x.png'
 
 export default {
   props: {
@@ -33,7 +40,9 @@ export default {
       Yellow: Y,
       Purple: P,
       Green: G,
-      Rainbow: Rainbow
+      Rainbow: Rainbow,
+      plus, plus2, minus, Up, Up2x
+      // specialCardImage: dupeczkaImage
     }
   },
   methods: {
@@ -73,25 +82,25 @@ export default {
 
     transformCard(card) {
       const cardDescriptions = {
-        R1: '+',
-        R2: '++',
-        B1: '+',
-        B2: '++',
-        G1: '+',
-        G2: '++',
-        Y1: '+',
-        Y2: '++',
-        P1: '+',
-        P2: '++',
-        R1B: '-',
-        Y1B: '-',
-        G1B: '-',
-        B1B: '-',
-        P1B: '-',
-        L1: 'Up',
-        L2: 'Up x2',
-        A1: '+',
-        A1B: '-'
+        R1: plus,
+        R2: plus2,
+        B1: plus,
+        B2: plus2,
+        G1: plus,
+        G2: plus2,
+        Y1: plus,
+        Y2: plus2,
+        P1: plus,
+        P2: plus2,
+        R1B: minus,
+        Y1B: minus,
+        G1B: minus,
+        B1B: minus,
+        P1B: minus,
+        L1: Up,
+        L2: Up2x,
+        A1: plus,
+        A1B: plus2
       }
       const regexPattern = Object.keys(cardDescriptions).join('|')
       const regex = new RegExp(`\\b(${regexPattern})\\b`, 'g')
@@ -114,6 +123,7 @@ export default {
 }
 
 .card {
+  position: relative;
   justify-content: flex-end;
   display: flex;
   width: calc(260px / 3);
@@ -128,18 +138,39 @@ export default {
 }
 
 .box-card-mark {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
-  height: 30px;
-  font-size: 20px;
-  background-color: rgba(114, 109, 109, 0.658);
+  z-index: 1;
+}
+
+.box-card-mark-center {
+  /* transform: translate(50%, 50%); */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
   z-index: 1;
 }
 
 .card-mark {
+  width: 20px;
+  top: 2px;
+  right: 2px;
+  color: white;
+  position: absolute;
+}
+
+.card-mark-center {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 45px;
   color: white;
   position: absolute;
 }

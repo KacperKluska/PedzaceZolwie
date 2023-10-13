@@ -41,3 +41,16 @@ export default {
   }
 }
 </script>
+
+<style>
+.players-box {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.player {
+  width: fit-content;
+}
+</style>
