@@ -60,7 +60,7 @@ const interval = setInterval(statrGame, 1500)
   <div>
     <Plansza :plansza="plansza" />
     <PlayerCards v-if="gracze.length" :gracze="gracze" />
-    <CardDisplay :cards="kartaStos" :colorCard="colorMap" />
+    <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
   </div>
 </template>
 
