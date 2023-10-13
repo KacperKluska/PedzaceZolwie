@@ -1,12 +1,14 @@
 <script setup>
 import Plansza from './components/Plansza.vue'
+import PlayerCards from './components/PlayerCards.vue'
+import CardDisplay from './components/CardDisplay.vue'
 import { ref, onMounted } from 'vue'
 import gameStat from './assets/response2.json'
-// import KartaGry from './components/KartaGry.vue'
 let plansza = ref([])
 let gracze = ref([])
 let runda = 0
 let winner = ref()
+let kartaStos = ref()
 
 // Funkcja wyświetlająca kolejną tablicę Plansza
 const statrGame = () => {
@@ -19,6 +21,11 @@ const statrGame = () => {
     )
     gracz.TwojeKarty = gameStat.PrzebiegGry[runda].TwojeKarty
     gracz.ZagraneKatry = gameStat.PrzebiegGry[runda].ZagraneKatry
+
+    kartaStos.value = gracz.ZagraneKatry.slice(-1).ZagranaKarta
+
+    console.log(gameStat.PrzebiegGry[runda].ZagraneKatry)
+    console.log(kartaStos.value)
     runda += 1
   } else {
     runda = 0
@@ -27,8 +34,20 @@ const statrGame = () => {
   }
 }
 
+const colorMap = {
+  R: 'red',
+  G: 'green',
+  B: 'blue',
+  Y: 'yellow',
+  P: 'purple',
+  L: 'white'
+}
+
 onMounted(() => {
   gracze.value = gameStat.NowaGra.Gracze
+  for (let i = 0; i < gameStat.NowaGra.Gracze.length; i++) {
+    gracze[i].TwojeKarty = []
+  }
 })
 
 const findWinnerColor = (name) => {
@@ -45,7 +64,6 @@ const interval = setInterval(statrGame, 100)
 
 <template>
   <div>
-    <Plansza :plansza="plansza" />
     <div class="wygrana" v-if="winner">
       The Winer is...<br />
       {{ winner }}
@@ -58,13 +76,11 @@ const interval = setInterval(statrGame, 100)
         <img class="wygrana__winer" src="./assets/winer.png" alt="Winer" />
       </div>
     </div>
-    <br />
-    <p>{{ plansza }}</p>
-    <!-- <KartaGry :color="'czerwony'" :option="'+'" /> -->
-    <br />
-    <p>{{ gracze }}</p>
-    <br />
-    <p v-if="winner">{{ winner }}</p>
+    <div class="gra" :class="{ 'gra--koniec': winner }">
+      <Plansza :plansza="plansza" />
+      <PlayerCards v-if="gracze.length" :gracze="gracze" />
+      <!-- <CardDisplay :cards="kartaStos" :colorCard="colorMap" /> -->
+    </div>
   </div>
 </template>
 
@@ -89,6 +105,16 @@ const interval = setInterval(statrGame, 100)
     transform: translate(-50%, 0%) scale(2) rotateZ(720deg) rotateY(180deg);
   }
 }
+
+.gra {
+  margin-top: 0;
+  transition: margin-top 1s;
+
+  &--koniec {
+    margin-top: 500px;
+  }
+}
+
 .wygrana {
   position: absolute;
   font-size: 60px;
