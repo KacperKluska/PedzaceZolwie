@@ -1,8 +1,10 @@
 <template>
-  <div class="players-box">
-    <div class="player" v-for="player in players" :key="player.id">
-      <h2 style="color: aliceblue">Gracz {{ player.id }}</h2>
-      <CardDisplay :cards="transformCards(player.cards)" :colorCard="colorMap" />
+  <div class="players-box" v-if="gracze">
+    <p>{{ gracze }}</p>
+    <div class="player" v-for="player in gracze" :key="player.TwojKolor">
+      <h2 style="color: #f0f8ff">Gracz {{ player.NazwaGracza }}</h2>
+      <h2 style="color: #f0f8ff">TwojeKarty {{ player.TwojeKarty }}</h2>
+      <CardDisplay v-if="player.TwojeKarty.length" :cards="transformCards(player.TwojeKarty)" :colorCard="colorMap" />
     </div>
   </div>
 </template>
@@ -26,6 +28,9 @@ function assignColorToCard(card) {
 }
 
 export default {
+  props: {
+    gracze: Array
+  },
   components: {
     CardDisplay
   },

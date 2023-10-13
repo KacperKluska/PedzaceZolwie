@@ -1,5 +1,5 @@
 <template>
-  <div class="card-display">
+  <div class="card-display" v-if="cards">
     <div v-for="card in cards" :key="card" class="card">
       <img class="img" v-if="isSpecialCard(card)" :src="specialCardImage" alt="Special Card" />
       <div class="box-card-mark">
@@ -24,6 +24,7 @@ export default {
     }
   },
   methods: {
+
     getColorForCard(card) {
       const firstLetter = card[0]
       return this.colorCard[firstLetter] || 'red'
