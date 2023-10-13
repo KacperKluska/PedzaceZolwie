@@ -6,7 +6,6 @@ const props = defineProps({
     required: true
   }
 })
-console.log('🚀 ~ file: Zolw.vue:9 ~ props:', props.color)
 </script>
 
 <template>
