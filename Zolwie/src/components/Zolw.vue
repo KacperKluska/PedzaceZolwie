@@ -9,11 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <img
-    class="zolw"
-    :src="`src/assets/zolwie/${color.toLowerCase()}.png`"
-    :alt="`${color} turtle`"
-  />
+  <img class="zolw" :src="`src/assets/zolwie/${color.toLowerCase()}.png`" :alt="`${color} turtle`" />
 </template>
 
 <style lang="scss" scoped>
@@ -22,6 +18,7 @@ const props = defineProps({
     scale: 2;
     opacity: 0.1;
   }
+
   100% {
     scale: 1;
     opacity: 1;
@@ -34,6 +31,6 @@ const props = defineProps({
   position: absolute;
   transform: rotateY(180deg);
   animation-name: exampleA;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
 }
 </style>

@@ -45,7 +45,7 @@ defineProps({
 
   img {
     transform: perspective(200px) rotateX(30deg);
-    animation: exampleB 2000ms;
+    animation: exampleB 1000ms;
   }
 }
 </style>
